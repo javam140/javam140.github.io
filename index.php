@@ -5,8 +5,6 @@
 		<title>strona</title>
 	</head>
 	<body>
-		<p>twojstary</p>
-		<?php echo "pijany";
-		?>
+		tekst
 	</body>
 </html>
