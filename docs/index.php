@@ -71,6 +71,8 @@
 			echo "<p>&nbsp;</p>";
 		}
 		?>
+		<br>
+		<a href="pis.html">jebacpis</a>
 		<h1>Twojastara generator</h1>
 		<form method="post">
 			<input type="submit" name="twojastara" value="Generuj">

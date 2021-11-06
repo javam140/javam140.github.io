@@ -1,0 +1,9 @@
+body {
+	background-color: black;
+	font-family: Georgia;
+	text-align: center;
+	color: white;
+}
+main {
+	display: inline-block;
+}

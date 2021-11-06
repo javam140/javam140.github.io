@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jebac pis</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<h1>Jebac pis?</h1>
+	<main>
+		<form>
+			<input onclick="zdanie()" type="button" name="tak" value="tak">
+		</form>
+		<form>
+			<input onclick="zmiana()" id="nie" type="button" value="nie">
+		</form>
+		<script type="text/javascript">
+			function zmiana() {
+				document.getElementById("nie").value="tak";
+			}
+			function zdanie() {
+				document.getElementById("tekst").innerHTML = "No i prawilnie";
+			}
+		</script>
+		<div id="tekst">
+			
+		</div>
+	</main>
+</body>
+</html>
