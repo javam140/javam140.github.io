@@ -6,7 +6,14 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<h1>Twojstary generator</h1>
+		<nav>
+			<ul>
+				<li><a href="pis.html">jebacpis</a></li>
+				<li><a href="przelicznik.php">Fajny przelicznik</a></li>
+				<li class="dowakacji"><a href="dowakacji.html">do wakacji</a></li>
+			</ul>
+		</nav>
+		<h1 class="gen1">Twojstary generator</h1>
 		<form method="post">
 			<input type="submit" name="generate" value="generuj">
 			<input type="submit" name="czysc" value="czysc">
@@ -72,7 +79,6 @@
 		}
 		?>
 		<br>
-		<a href="pis.html">jebacpis</a>
 		<h1>Twojastara generator</h1>
 		<form method="post">
 			<input type="submit" name="twojastara" value="Generuj">

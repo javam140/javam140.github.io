@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body {
+	background-color: #5e5e5e;
+	color: white;
+	font-family: Open Sans Condensed;
+	font-size: 120px;
+	text-align: center;
+	font-weight: bold;
+}
+main {
+	margin-top: 100px;
+	padding: 20px;
+	font-size: 37.5px;
+	font-weight: normal;
+}
+.glowny {
+	margin-left: 15%;
+	margin-right: 15%;
+	border-style: solid;
+	border-color: white;
+	border-width: 6px;
+	padding: 40px;
+}
+@media only screen and (max-width: 1366px) {
+	body {
+		font-size: 40px;
+	}
+	main {
+		font-size: 30px;
+	}
+}
